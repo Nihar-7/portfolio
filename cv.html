@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #head {
+            background-color: rgb(20 21 131);
+            ;
+            ;
+            display: block;
+            height: 55px;
+            width: 262px;
+        }
+
+        #foot {
+            background-color: rgb(20 21 131);
+            ;
+            ;
+            display: block;
+            height: 55px;
+            width: 713px;
+            position: absolute;
+            right: 326px;
+        }
+
+
+        #section {
+            /* border: 2px solid black; */
+            display: inline-block;
+            height: 993px;
+            width: 258px;
+            margin: 3px 1px;
+            background-color: #1474cb;
+        }
+
+        #name_heading {
+            text-align: center;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: aliceblue;
+        }
+
+        #mypic {
+            display: inline-block;
+            margin: 3px 18px;
+            border-radius: 50%;
+            height: 201px;
+            width: 212px;
+
+        }
+
+        .common_headings {
+            margin: 17px 28px;
+            font-size: 1.5rem;
+            color: rgb(255, 255, 255);
+            font-weight: bolder;
+        }
+
+        .headings2 {
+            margin: 17px 28px;
+
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+        }
+
+        .para {
+            margin: 17px 28px;
+            color: aliceblue;
+        }
+
+        #account {
+            margin: 17px 28px;
+            text-decoration: none;
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        #account:hover,
+        a:hover {
+            color: rgb(188 194 207);
+            ;
+        }
+
+        #aside {
+            /* border: 2px solid black; */
+            height: 993px;
+            width: 782px;
+            margin: 3px 15px;
+            background-color: #1474cb;
+
+        }
+
+
+
+        #container {
+            /* border: 2px solid black; */
+            display: flex;
+            flex-direction: row;
+            height: 1000px;
+            width: 1000px;
+
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: rgb(255, 255, 255);
+            font-weight: bolder;
+        }
+
+        .para1 {
+            color: aliceblue;
+            margin: 14px 14px;
+        }
+
+        li {
+            color: aliceblue;
+        }
+
+        #logo {
+            float: left;
+            height: 89px;
+            width: 147px;
+            margin: 0px 14px;
+        }
+
+        .a1 {
+            margin: 14px 14px;
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        .a1:hover {
+            color: rgb(188 194 207);
+        }
+
+        .heading2 {
+            margin: 14px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="head"></header>
+    <box id="container">
+        <section id="section">
+            <h1 id="name_heading">NIHARIKA SAHU</h1>
+            <img src="p.jpg" alt="..." id="mypic">
+            <h2 class="common_headings">Contact</h2>
+            <!--margin: top bottom left right -->
+            <hr style="margin:0px 0px 0px 30px">
+            <h3 class="headings2">Address:</h3>
+            <p class="para">166/7 savitri nagar sanigawan road,kanpur</p>
+            <br>
+            <h3 class="headings2">phone:</h3>
+            <p class="para">+917355726423</p>
+            <h3 class="headings2">Email:</h3>
+            <a href="niharika.sahu.1302@gmail.com" target="_blank" id="account">niharika.sahu.1302@gmail.com</a>
+            <h2 class="common_headings">Languages</h2>
+            <hr style="margin:0px 0px 0px 30px">
+            <p class="para">English</p>
+            <p class="para">Hindi</p>
+        </section>
+        <aside id="aside">
+            <h2 class="heading2">About</h2>
+            <hr>
+            <p class="para1">I am niharika sahu.Currently i am persuing BTech in computer science from Noida institute
+                of engineering
+                and technology
+                .I am from Kanpur.i am 21 years old.I will graduate in 2024.This is my 3rd year and I am going throungh
+                5 sem.Talking about my hobbies i am fond of listening to music,programming,video games,cars and i also
+                like singing and dancing.
+            </p>
+            <br>
+            <h2 class="heading2">Skill Highlights</h2>
+            <hr>
+            <ul type="round">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java script</li>
+                <li>SQL</li>
+                <li>java</li>
+                <li>python</li>
+            </ul>
+            <br>
+            <h2 class="heading2">Education</h2>
+            <hr>
+            <p class="para1">2018 &nbsp; :&nbsp;10th passed from C.B.S.E Board</p>
+            <p class="para1">2020 &nbsp;:&nbsp;12th passed from C.B.S.E Board</p>
+
+            <br>
+            <h2 class="heading2">Certifications</h2>
+            <hr>
+            <p class="para1">Coursera certificates</p>
+
+            <a href="https://coursera.org/share/a68ab3e8745dfc2bbb60cea50cfc9e5a" target="_blank" class="a1">Elastic
+                Google Cloud
+                Infrastructure: Scaling and Automation</a>
+
+            <p class="para1">Guided Projects</p>
+            <a href="https://coursera.org/share/9417377f6ab58451f7bc418733e8edba" class="a1">AWS Elastic Beanstalk:
+                Build & Deploy
+                a Node.js
+                RESTful API</a>
+            <br>
+            <a href="https://coursera.org/share/bf591ea1456ff8afa8ffec57c6c865bf" class="a1">Hosting a Static Website
+                (HTML/CSS/Javascript) in
+                AWS S3
+            </a>
+            <br>
+            <p class="para1">AWS certificates</p>
+            <div>
+                <img src="aws.png" alt="..." id="logo">
+            </div>
+
+        </aside>
+    </box>
+    <footer id="foot"></footer>
+
+
+
+
+
+
+</body>
+
+</html>
